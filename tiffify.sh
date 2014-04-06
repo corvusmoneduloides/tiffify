@@ -30,5 +30,7 @@ base_tfw="${base}/data/georeferencing files/tfw/"
 	 echo "creating:        ${meta}"
 	 geotifcp -e "${tfw}" -g "${meta}" "${in_tif}" "${out_tif}"
 	 echo "creating:        ${out_tif}" 
+	 rm "${meta}"
+	 echo "removed:        ${meta}"
      done
 done
