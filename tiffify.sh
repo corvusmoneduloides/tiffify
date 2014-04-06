@@ -9,10 +9,6 @@
 # top-level streetview string: "OS Street View SS"
 # TFW files in "OS Street View SS/data/georeferencing files/tfw/xxxxxx.TFW"
 # tif files in "OS Street View SS/data/SS/xxxxxx.tif"
-#
-# example processing
-# listgeo $file > ${file:3:6}.meta
-# geotifcp -e ${file:3:6}.TFW -g ${file:3:6}.meta ${file:3:6}.tif ${file:3:6}. 
 
 for folder in *"OS Street View "* 
 do
