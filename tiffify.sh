@@ -22,7 +22,7 @@ base_tfw="${base}/data/georeferencing files/tfw/"
      do
 	 stem="${file:26:6}"
          in_tif="${base_tif}${stem}.tif"
-         out_tif="${outdir}${stem}.TIF"
+         out_tif="${outdir}${stem}.tif"
  	 tfw="${base_tfw}${stem}.TFW"
 	 meta="${outdir}${stem}.meta"
 
