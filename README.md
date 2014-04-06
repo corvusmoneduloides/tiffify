@@ -2,10 +2,14 @@ Tiffify.sh
 =================
 A script to create 'real' geotiffs from OSGB Street View tifs
 
-Requirements:
-linux (cygwin not tested)
+Software requirements:
+linux
 listgeo
 geotifcp
+qgis 2.2 (for qgis project files)
+
+Hardware requirements:
+4GB RAM (nothing less tested)
 
 1. download OS Street View zip files from Ordnance Survey OpenData project
 2. Unzip downloads into one directory. It should be populated with directories named 'OS Street View SS' where 'SS' is the mapsheet code.
